@@ -27,6 +27,7 @@ class MainViewModel @Inject constructor (
         subjectNameState = newString
     }
 
+
     fun onPresentChanged(newInt: Int) {
         presentState = newInt
     }
